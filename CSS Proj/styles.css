@@ -1,0 +1,36 @@
+img {
+    /*initial style for img*/
+    height: 50px;
+    /*additional styles*/
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color: wheat; 
+    background-color: aliceblue;
+    background-image: url('./images/gems.png');
+    background-size: cover;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    color: turquoise;
+}
+
+nav {
+    /* background-color: black;
+    opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.5);
+}
