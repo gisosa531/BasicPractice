@@ -3,11 +3,23 @@
     padding: 0;
 }
 
-.title {
+h1 {
     font-family: Helvetica;
     font-size: 100px;
     font-weight: bold;
     color: khaki;
     text-align: center;
-    background-image: url("./media/pattern.jpg")
+    background-image: url("./media/pattern.jpg");
+    margin:0.5em 0em;
+}
+
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: lavenderblush;
+}
+
+#brush {
+    background-color: mediumseagreen;
 }
