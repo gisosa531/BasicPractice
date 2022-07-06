@@ -10,7 +10,9 @@ h1 {
     color: khaki;
     text-align: center;
     background-image: url("./media/pattern.jpg");
-    margin:0.5em 0em;
+    margin:0em 0em;
+    border:10px solid slateblue;
+
 }
 
 h2 {
@@ -18,8 +20,42 @@ h2 {
     font-size: 32px;
     font-weight: bold;
     color: lavenderblush;
+    margin:12px 0px;
+}
+
+div {
+    display: block;
+}
+
+h3 {
+    display: block;
+    font-family: Helvetica;
+    font-weight: bold;
+    margin: 1em 0em;
+    text-align: left;
+}
+
+p{
+    display: block;
+    font-family: Helvetica;
+    font-size: large;
+    margin-block: 1em 0;
+}
+
+.price {
+    font-family: Helvetica;
+    color: mediumblue;
+    font-weight: bold;
 }
 
 #brush {
     background-color: mediumseagreen;
+}
+
+#frame {
+    background-color: lightcoral;
+}
+
+#paint {
+    background-color: skyblue;
 }
