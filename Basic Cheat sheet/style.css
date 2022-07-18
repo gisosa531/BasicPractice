@@ -24,3 +24,14 @@ table {
     margin: 0 auto;
 }
 
+thead {
+    background-color: aliceblue;
+}
+
+td {
+    border-top: 2px solid darkblue;
+}
+
+code {
+    background-color: lavender;
+}
