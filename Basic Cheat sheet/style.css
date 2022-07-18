@@ -1,0 +1,26 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: blanchedalmond;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+nav {
+    display: inline-flex;
+}
+
+ul li {
+    display: inline-flex;
+    background-color:burlywood;
+    padding: 2em;
+}
+
+table {
+    display: table;
+    border: 3px solid teal;
+    width: 700px;
+    margin: 0 auto;
+}
+
