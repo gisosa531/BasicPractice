@@ -1,0 +1,52 @@
+a {
+    color: #0051d4;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  a:hover, .nav-link {
+    text-decoration: none;  
+  }
+  
+  .nav-link:hover{
+    color: #21e4ff;
+  }
+  
+  .btn {
+    background-color: #2175ff;
+    border-radius: 3px;
+    color: #d9d9d9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    background-color: #ffab21;
+    color: #2176FF;
+    transition: color .2s ease-in, background-color .2s ease-in;
+  }
+  
+  .btn:active {
+    font-size: 20px;
+    transition: font-size .2s ease-in-out;
+  }
+  
+  .activity {
+    border: 2px solid #21ffaa;
+    text-decoration: none;
+  }
+  
+  .activity:hover {
+    background-color: #e6e6e6;
+    color: #6954ff;
+    transition: color .1s ease-in, background-color .2s ease-in;
+  }
+  
+  .activity:active {
+    font-size: 50px;
+    transition: font-size .2s;
+  }
