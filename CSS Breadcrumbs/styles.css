@@ -1,15 +1,17 @@
 .breadcrumb > li {
-}
-
-.breadcrumb li+li::before {
-	padding: 10px;
-
-}
-
-.breadcrumb a {
-
-}
-
-.breadcrumb a:hover {
-
-}
+	display: inline;
+  }
+  
+  .breadcrumb li+li::before {
+	  padding: 10px;
+	content: ">";
+  
+  }
+  
+  .breadcrumb a {
+	text-decoration: none;
+  }
+  
+  .breadcrumb a:hover {
+	color: red;
+  }
