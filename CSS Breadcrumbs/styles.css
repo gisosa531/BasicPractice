@@ -1,0 +1,15 @@
+.breadcrumb > li {
+}
+
+.breadcrumb li+li::before {
+	padding: 10px;
+
+}
+
+.breadcrumb a {
+
+}
+
+.breadcrumb a:hover {
+
+}
