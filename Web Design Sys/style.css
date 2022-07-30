@@ -1,5 +1,5 @@
 .container {
- border: 2px solid #2d5dcc;
+ border: 2px solid #A37D24 ;
  padding: 10px;
  margin: 50px auto;
 }
@@ -8,8 +8,49 @@
     display: flex;
     position: relative;
     margin-top: 10px;
+    
 }
 
 div {
     display: block;
 }
+
+.color-contain {
+    width: auto;
+}
+
+.color-box {
+    display: inline-block;
+    width: 35%;
+    margin: 20px auto;
+    text-align:center;
+    min-height: 100px;
+}
+
+.col-hex, .col-label {
+    color: antiquewhite;
+    font-size: 1.3em;
+}
+
+.blue {
+    background-color: #2d5dcc;
+}
+
+.salmon {
+    background-color: #fa8072;
+
+}
+
+.green {
+    background-color: #097969;
+}
+
+.beige {
+    background-color:  #DDC7A0;
+    color: #A0B6DD;
+}
+
+.beige > p {
+    color: #22385F ;
+}
+
