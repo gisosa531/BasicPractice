@@ -1,27 +1,17 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 10%;
+}
+
 .container {
- border: 2px solid #A37D24 ;
+ border: 1.5px solid #A37D24 ;
  padding: 10px;
- margin: 50px auto;
-}
-
-.container > h2 {
-    display: flex;
-    position: relative;
-    margin-top: 10px;
-    
-}
-
-div {
-    display: block;
-}
-
-.color-contain {
-    width: auto;
+ margin: 10px auto;
 }
 
 .color-box {
     display: inline-block;
-    width: 35%;
+    width: 33%;
     margin: 20px auto;
     text-align:center;
     min-height: 100px;
@@ -29,16 +19,16 @@ div {
 
 .col-hex, .col-label {
     color: antiquewhite;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .blue {
     background-color: #2d5dcc;
 }
 
-.salmon {
+.salmon, .salmon > p {
     background-color: #fa8072;
-
+    color: #22385F;
 }
 
 .green {
