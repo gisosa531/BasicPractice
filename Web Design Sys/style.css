@@ -3,12 +3,15 @@ body {
     margin: 0 10%;
 }
 
+
 .container {
  border: 1.5px solid #A37D24 ;
  padding: 10px;
  margin: 10px auto;
 }
 
+
+/* Color Section */
 .color-box {
     display: inline-block;
     width: 33%;
@@ -44,3 +47,38 @@ body {
     color: #22385F ;
 }
 
+
+/* Font Section*/
+
+.font-box {
+    display: inline-block;
+    width: 35%;
+}
+
+.font-name {
+    text-decoration: underline ;
+    font-size: 23px;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+.lora {
+    font-family: 'Lora', serif;;
+}
+
+.ibarra-real-nova {
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.cuprum {
+    font-family: 'Cumprum', sans-serif;
+}
