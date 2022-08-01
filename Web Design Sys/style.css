@@ -82,3 +82,28 @@ body {
 .cuprum {
     font-family: 'Cumprum', sans-serif;
 }
+
+.text-box h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Lora', serif;
+}
+
+ul {
+    display: block;
+    list-style-type:square;
+    font-family: 'Lora', serif;
+}
+
+.text-box h2 {
+    font-weight:500;
+    font-size: 18px;
+    font-family: 'Cumprum', sans-serif;
+}
+
+
+.text-box p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Cumprum', sans-serif;
+}
