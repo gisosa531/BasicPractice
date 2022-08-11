@@ -28,7 +28,17 @@ div.mission-content {
     background-color: black;
 }
 
+.items {
+    display: inline-flex;
+    max-width: 1000px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
 .item-box img {
     height: 200px;
     width: 300px;
+    padding: 10px;
+
 }
+
