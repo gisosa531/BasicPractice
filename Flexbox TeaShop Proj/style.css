@@ -8,11 +8,14 @@ body {
     text-align: center;
 }
 
+/* Navigation link section */
 .navbar {
     list-style: none;
     text-decoration: underline;
 }
 
+
+/* Main Hero Banner */
 .mission {
     text-align: center;
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
@@ -28,6 +31,8 @@ div.mission-content {
     background-color: black;
 }
 
+
+/* Item Section */
 .items {
     display: inline-flex;
     max-width: 1000px;
@@ -42,3 +47,26 @@ div.mission-content {
 
 }
 
+
+/* Location Info Section */
+.locations {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    display: block;
+    float: left;
+    padding-left: 20px;
+}
+
+
+/* reference: https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg */
