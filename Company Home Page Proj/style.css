@@ -7,9 +7,11 @@ html {
   h1 {
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif, Verdana, sans-serif;
-    margin-top: 5px;
+    margin-top: 40px;
     color: #023020;
-    font-size: 36px;
+    font-size: 2.4rem;
+    cursor: text;
+    text-shadow: 2px 2px 2px #5777c6;
   }
 
  h1:hover {
@@ -20,35 +22,46 @@ html {
     font-size: 2rem;
     content: attr(data-descr);
  }
- 
+
+ .fi {
+    display: block;
+    font-size: large;
+    color: #9c3552; 
+    line-height: 3.5;
+}
   /* Nav bar section */
 
 nav {
-    padding: 25px;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
-    background-color: #caad63;
+    background-color: #d4af37 ;
+    max-height:10rem;
   }
   
   ul {
     float: right;
   }
-  
+
   li {
     display: inline-block;
-    margin-right: 25px;
     text-align: center;
-    background-color: #28587B;  
-    border-radius: 12px;
+  }
+  
+  li.btn {
+   
+    background-color: #35529c;  
+    border-radius: 10px;
   
   }
   
   a {
     display: inline-block;
-    width: 150px;
+    width: 8.5rem;
     padding: 10px 0;
     text-decoration: none;
     font-size: 24px;
-    color: white;
+    color: black;
+    font-weight: bolder;
   }
   
   .clearfix:after {
@@ -59,6 +72,16 @@ nav {
      clear: both;
   }
   
+
+  .bannerContainer {
+    background-image: url("./resources/langtree.png");
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+
+
   @media only screen and (max-width: 800px) {
     h1 {
       display: none;
