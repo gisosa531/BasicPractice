@@ -2,6 +2,11 @@ html {
     background-color: #28282B;
 }
 
+.button {
+  border-radius: 4px;
+  background-color: #35529c;
+  color: white;
+}
   /* Title Logo */
 
   h1 {
@@ -12,6 +17,12 @@ html {
     font-size: 2.4rem;
     cursor: text;
     text-shadow: 2px 2px 2px #5777c6;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700; 
+    color: #b9b9b9;
   }
 
  nav h1:hover {
@@ -119,45 +130,24 @@ a {
      color: white;
      border-radius: 5px;
    }
+   nav {
+    border-bottom: none;
+  }
  }
 
- @media only screen and (max-width: 390px) {
-  li {
-    margin-bottom: 10px;
-  }
-  }
-/* Banner Section */
 
-  .banner {
-    position: relative;
-  
-  }
-
-  .imgContainer {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 300px;
-    height: auto;
-    max-width:100% ;
-    background-image: url("./resources/brain.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
-  }
-
-  /* Sign up Section */
+  /* Banner and Sign up Section */
 
   #signUp {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 45rem;
-    background-image: url("./resources/brain.jpg");
+    height:45rem;
+    width:100%;
+    background-image: url("./resources/greybrain.jpg");
+    background-position: 5% 20% ;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right;
   }
 
   #signUpCont {
@@ -176,7 +166,7 @@ a {
     font-family: sans-serif;
     font-size: 1.1rem;
     line-height:1.4;
-    color: #194553;
+    color: #28282B;
     
   }
 
@@ -186,13 +176,118 @@ a {
   #signUpCont span strong {
     font-weight: bold;
   }
-  #signUpCont .btn {
+  #signUpCont .button {
     margin-top: 1.625rem;
     padding: 1.25rem 7.25rem;
   }
   
 
-  
+  @media only screen and (max-width:760px) {
+    #signUp {
+      align-items: center;
+      justify-content: center;
+      height: 28rem;
+    }
+
+    #signUpCont {
+      position: static;
+      width:auto;
+      height: auto;
+      background-color: transparent;
+      border: none;
+    }
+
+    #signUpCont .color {
+      color:black;
+    }
+
+    #signUpCont .content {
+      margin-top: 0;
+    }
+
+    #signUpCont .button {
+      display: none;
+    }
+  }
   
  
+  @media only screen and (max-width: 450px) {
+    #signUp {
+      height: 20rem;
+    }
+  }
 
+
+  /* Domains of language Section */
+  section.domains {
+    max-width: 1300px;
+    margin: 100px auto;
+    padding: 0 20px;
+  }
+
+  .lang-Main {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+
+  .lang-Contain {
+    display: flex;
+    width: 350px;
+    min-height: 350px;
+    align-items: flex-end;
+    border: 2px solid yellow;
+
+  }
+
+  .description {
+    background-color: rgba(0,0,0,0.85);
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 1rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  #phonology {
+    background-image: url("./resources/phonology.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    flex-grow: 1;
+  }
+
+  #morphology {
+    background-image: url("./resources/words.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 2;
+  }
+
+  #syntax {
+    background-image: url("./resources/syntax.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    flex-grow: 2;
+
+  }
+
+  #semantic {
+    background-image: url("./resources/semantics.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    flex-grow: 1;
+  }
+
+  #pragmatic {
+    background-image: url("./resources/pragmatics.jfif");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    flex-grow: 1;
+  }
+
+  
